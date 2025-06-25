@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Games - GameZone Pro</title>
-    <meta name="description" content="Play the best free online car games on GameZone Pro. Racing, drifting, and more!">
+    <title>GameZone Pro - Play Free Online Games</title>
+    <meta name="description" content="Discover and play thousands of free online games at GameZone Pro. Action, puzzle, car games, and more!">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="page-container">
         <header id="main-header">
             <div class="container">
-                 <a href="index.html" class="logo-link">
+                <a href="index.html" class="logo-link">
                     <span class="logo-text-header"><i class="fas fa-gamepad"></i> GameZone Pro</span>
                 </a>
                 <nav id="main-nav">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="category.html" class="active">Categories</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="category.html">Categories</a></li>
                         <li><a href="#">All Games</a></li>
                         <li><a href="#">New Releases</a></li>
                         <li><a href="#">Contact</a></li>
@@ -30,75 +30,57 @@
                         <input type="search" placeholder="Search games...">
                         <button type="submit"><i class="fas fa-search"></i></button>
                     </div>
+                    <!-- <button class="btn btn-outline btn-login">Login</button> -->
                 </div>
                 <button id="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
             </div>
         </header>
 
-        <main id="main-content" class="category-page">
+        <section id="hero-section" style="background-image: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.95)), url('https://placehold.co/1920x700/0A101E/F0F0F0?text=Epic+Gaming+Universe');">
             <div class="container">
-                <header class="category-header page-section-header">
-                    <h1><i class="fas fa-car"></i> Car Games</h1>
-                    <p>Get behind the wheel and experience the thrill of speed with our exciting collection of car games. From high-octane races to challenging parking simulators, find your favorite car game here!</p>
-                </header>
+                <h1 class="hero-title">Unlock Your Next Gaming Adventure!</h1>
+                <p class="hero-subtitle">Explore a universe of free-to-play games. Action, strategy, puzzles, and more await at GameZone Pro!</p>
+                <a href="category.html" class="btn btn-primary btn-hero">Discover Games <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
 
-                <div class="filter-bar">
-                    <label for="sort-by">Sort by:</label>
-                    <select name="sort-by" id="sort-by">
-                        <option value="popularity">Popularity</option>
-                        <option value="newest">Newest</option>
-                        <option value="rating">Top Rated</option>
-                        <option value="alphabetical">A-Z</option>
-                    </select>
-                     <button class="btn btn-secondary btn-filter-apply">Apply</button>
-                </div>
-
-                <section id="category-games-grid" class="games-section">
-                    <div class="game-grid">
+        <main id="main-content">
+            <div class="container">
+                <section id="featured-games" class="games-section">
+                    <h2><i class="fas fa-star"></i> Featured Games</h2>
+                    <div class="game-grid" id="featured-games-grid">
                         <div class="game-card">
                             <a href="game.html">
                                 <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Urban+Racer+Xtreme" alt="Urban Racer Xtreme">
+                                    <img src="https://placehold.co/450x300/1F2947/E0E0E0?text=Cosmic+Odyssey+II" alt="Cosmic Odyssey II">
                                     <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
                                 </div>
                                 <div class="game-card-content">
-                                    <h3>Urban Racer Xtreme</h3>
-                                    <span class="game-category-tag">Racing</span>
+                                    <h3>Cosmic Odyssey II</h3>
+                                    <span class="game-category-tag">Adventure</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="game.html">
+                                 <div class="game-card-image-container">
+                                    <img src="https://placehold.co/450x300/1F2947/E0E0E0?text=Nitro+Burnout+X" alt="Nitro Burnout X">
+                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
+                                </div>
+                                <div class="game-card-content">
+                                    <h3>Nitro Burnout X</h3>
+                                    <span class="game-category-tag">Car</span>
                                 </div>
                             </a>
                         </div>
                         <div class="game-card">
                             <a href="game.html">
                                 <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Drift+Legends+Ultimate" alt="Drift Legends Ultimate">
+                                    <img src="https://placehold.co/450x300/1F2947/E0E0E0?text=Mind+Benders+Ultimate" alt="Mind Benders Ultimate">
                                     <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
                                 </div>
                                 <div class="game-card-content">
-                                    <h3>Drift Legends Ultimate</h3>
-                                    <span class="game-category-tag">Drifting</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="game-card">
-                           <a href="game.html">
-                                <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Mud+Runner+Pro+Series" alt="Mud Runner Pro Series">
-                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
-                                </div>
-                                <div class="game-card-content">
-                                    <h3>Mud Runner Pro Series</h3>
-                                    <span class="game-category-tag">Simulation</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="game-card">
-                            <a href="game.html">
-                                <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Park+It+Perfectly" alt="Park It Perfectly">
-                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
-                                </div>
-                                <div class="game-card-content">
-                                    <h3>Park It Perfectly</h3>
+                                    <h3>Mind Benders Ultimate</h3>
                                     <span class="game-category-tag">Puzzle</span>
                                 </div>
                             </a>
@@ -106,72 +88,110 @@
                         <div class="game-card">
                             <a href="game.html">
                                 <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Freeway+Fury+Reloaded" alt="Freeway Fury Reloaded">
+                                    <img src="https://placehold.co/450x300/1F2947/E0E0E0?text=Cyber+Striker+Omega" alt="Cyber Striker Omega">
                                     <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
                                 </div>
                                 <div class="game-card-content">
-                                    <h3>Freeway Fury Reloaded</h3>
-                                    <span class="game-category-tag">Simulation</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="game-card">
-                            <a href="game.html">
-                               <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Demolition+Derby+Maximus" alt="Demolition Derby Maximus">
-                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
-                                </div>
-                                <div class="game-card-content">
-                                    <h3>Demolition Derby Maximus</h3>
+                                    <h3>Cyber Striker Omega</h3>
                                     <span class="game-category-tag">Action</span>
-                                </div>
-                            </a>
-                        </div>
-                         <div class="game-card">
-                            <a href="game.html">
-                                <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Pixel+Racer+Retro" alt="Pixel Racer Retro">
-                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
-                                </div>
-                                <div class="game-card-content">
-                                    <h3>Pixel Racer Retro</h3>
-                                    <span class="game-category-tag">Arcade</span>
-                                </div>
-                            </a>
-                        </div>
-                         <div class="game-card">
-                            <a href="game.html">
-                                <div class="game-card-image-container">
-                                    <img src="https://placehold.co/450x300/FFC107/1A1A2E?text=Grand+Prix+Championship" alt="Grand Prix Championship">
-                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
-                                </div>
-                                <div class="game-card-content">
-                                    <h3>Grand Prix Championship</h3>
-                                    <span class="game-category-tag">Racing</span>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </section>
 
-                <nav class="pagination">
-                    <a href="#" class="page-link disabled"><i class="fas fa-angle-double-left"></i> Prev</a>
-                    <a href="#" class="page-link active">1</a>
-                    <a href="#" class="page-link">2</a>
-                    <a href="#" class="page-link">3</a>
-                    <span class="page-link-ellipsis">...</span>
-                    <a href="#" class="page-link">10</a>
-                    <a href="#" class="page-link">Next <i class="fas fa-angle-double-right"></i></a>
-                </nav>
+                <section id="trending-games" class="games-section">
+                    <h2><i class="fas fa-fire"></i> Trending Now</h2>
+                     <div class="game-grid" id="trending-games-grid">
+                        <div class="game-card">
+                            <a href="game.html">
+                                <div class="game-card-image-container">
+                                    <img src="https://placehold.co/450x300/2A3B5F/E0E0E0?text=Realm+Guardians" alt="Realm Guardians">
+                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
+                                </div>
+                                <div class="game-card-content">
+                                    <h3>Realm Guardians</h3>
+                                    <span class="game-category-tag">Strategy</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="game.html">
+                                 <div class="game-card-image-container">
+                                    <img src="https://placehold.co/450x300/2A3B5F/E0E0E0?text=Arena+Champions" alt="Arena Champions">
+                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
+                                </div>
+                                <div class="game-card-content">
+                                    <h3>Arena Champions</h3>
+                                    <span class="game-category-tag">Sports</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="game.html">
+                                 <div class="game-card-image-container">
+                                    <img src="https://placehold.co/450x300/2A3B5F/E0E0E0?text=Stealth+Ops" alt="Stealth Ops">
+                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
+                                </div>
+                                <div class="game-card-content">
+                                    <h3>Stealth Ops</h3>
+                                    <span class="game-category-tag">Action</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="game-card">
+                            <a href="game.html">
+                                 <div class="game-card-image-container">
+                                    <img src="https://placehold.co/450x300/2A3B5F/E0E0E0?text=Block+Builders" alt="Block Builders">
+                                    <div class="game-card-overlay"><i class="fas fa-play-circle"></i></div>
+                                </div>
+                                <div class="game-card-content">
+                                    <h3>Block Builders</h3>
+                                    <span class="game-category-tag">Puzzle</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="popular-categories">
+                    <h2><i class="fas fa-tags"></i> Popular Categories</h2>
+                    <div class="category-grid">
+                        <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/007BFF/FFFFFF?text=ACTION" alt="Action Games">
+                            <div class="category-card-name"><span>Action</span></div>
+                        </a>
+                        <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/FF4081/FFFFFF?text=ADVENTURE" alt="Adventure Games">
+                             <div class="category-card-name"><span>Adventure</span></div>
+                        </a>
+                        <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/39FF14/1A1A2E?text=PUZZLE" alt="Puzzle Games">
+                             <div class="category-card-name"><span>Puzzle</span></div>
+                        </a>
+                        <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/FFC107/1A1A2E?text=CAR" alt="Car Games">
+                             <div class="category-card-name"><span>Car</span></div>
+                        </a>
+                        <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/9C27B0/FFFFFF?text=SPORTS" alt="Sports Games">
+                            <div class="category-card-name"><span>Sports</span></div>
+                        </a>
+                         <a href="category.html" class="category-card">
+                            <img src="https://placehold.co/400x300/4CAF50/FFFFFF?text=STRATEGY" alt="Strategy Games">
+                             <div class="category-card-name"><span>Strategy</span></div>
+                        </a>
+                    </div>
+                </section>
             </div>
         </main>
 
         <footer id="main-footer">
             <div class="container">
-                 <div class="footer-columns">
+                <div class="footer-columns">
                     <div class="footer-column about-column">
                         <span class="logo-text-footer"><i class="fas fa-gamepad"></i> GameZone Pro</span>
-                        <p>Your ultimate destination for free online games. We offer a vast collection of fun and engaging games for all ages.</p>
+                        <p>Your ultimate destination for free online games. We offer a vast collection of fun and engaging games for all ages. Dive in and start playing today!</p>
                     </div>
                     <div class="footer-column">
                         <h4>Quick Links</h4>
@@ -206,4 +226,4 @@
     </div>
     <script src="script.js"></script>
 </body>
-  </html>
+</html>
