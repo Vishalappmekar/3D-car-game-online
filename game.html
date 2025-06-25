@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Burnout X - GameZone Pro</title>
+    <meta name="description" content="Play Nitro Burnout X and other exciting car games on GameZone Pro.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page-container">
+        <header id="main-header">
+            <div class="container">
+                 <a href="index.html" class="logo-link">
+                    <span class="logo-text-header"><i class="fas fa-gamepad"></i> GameZone Pro</span>
+                </a>
+                <nav id="main-nav">
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="category.html">Categories</a></li>
+                        <li><a href="#" class="active">Games</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="header-search">
+                        <input type="search" placeholder="Search games...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <button id="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </header>
+
+        <main id="main-content" class="game-page">
+            <div class="container">
+                <div class="game-main-column">
+                    <header class="game-page-header">
+                        <h1><i class="fas fa-flag-checkered"></i> Nitro Burnout X</h1>
+                        <div class="game-meta">
+                            <span><i class="fas fa-tag"></i> Category: <a href="category.html">Car</a>, <a href="category.html">Racing</a></span>
+                            <span><i class="fas fa-play"></i> Plays: 25,870</span>
+                            <span><i class="fas fa-star"></i> Rating: 4.7/5 (1,230 votes)</span>
+                        </div>
+                    </header>
+
+                    <section class="game-play-area">
+                        <div id="game-embed-container">
+                            <iframe 
+                                src="placeholder-game/index.html" 
+                                width="100%" 
+                                height="100%" 
+                                frameborder="0" 
+                                scrolling="no"
+                                allowfullscreen="true"
+                                webkitallowfullscreen="true"
+                                mozallowfullscreen="true"
+                                title="Nitro Burnout X Game"
+                                style="background: #0D1117 url('https://placehold.co/1280x720/0D1117/00A9FF?text=Nitro+Burnout+X+Gameplay') no-repeat center center; background-size: contain;">
+                                Your browser does not support iframes or the game could not be loaded.
+                            </iframe>
+                        </div>
+                        <div class="game-actions-bar">
+                            <div class="game-actions-left">
+                                <button class="btn btn-icon" id="like-btn" aria-label="Like Game"><i class="far fa-thumbs-up"></i> Like</button>
+                                <button class="btn btn-icon" id="share-btn" aria-label="Share Game"><i class="fas fa-share-alt"></i> Share</button>
+                            </div>
+                            <div class="game-actions-right">
+                                <button class="btn btn-secondary btn-fullscreen" id="fullscreen-btn"><i class="fas fa-expand"></i> Fullscreen</button>
+                                <button class="btn btn-danger btn-report" id="report-btn"><i class="fas fa-flag"></i> Report</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="game-details">
+                        <div class="tabs">
+                            <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
+                            <button class="tab-link" onclick="openTab(event, 'instructions')">How to Play</button>
+                            <button class="tab-link" onclick="openTab(event, 'comments')">Comments</button>
+                        </div>
+
+                        <div id="description" class="tab-content active">
+                            <h2>About Nitro Burnout X</h2>
+                            <p>Feel the adrenaline rush in Nitro Burnout X! This isn't just a race; it's a battle for supremacy on meticulously crafted tracks. Unlock a fleet of powerful, customizable cars, upgrade their performance to the max, and leave your bewildered opponents choking on your virtual dust. With hyper-realistic crash physics and challenging, adaptive AI, every single race is a fresh, unpredictable thrill ride.</p>
+                            <p>Master impossibly tight corners, strategically deploy your game-changing nitro boosts, and conquer global leaderboards to etch your name as the ultimate Nitro Burnout X champion. Are you prepared to obliterate the asphalt and claim your victory?</p>
+                            <h4>Features:</h4>
+                            <ul>
+                                <li>Stunning next-gen graphics and visual effects.</li>
+                                <li>Dozens of unlockable and upgradeable cars.</li>
+                                <li>Multiple challenging tracks and environments.</li>
+                                <li>Intense single-player campaign and competitive multiplayer modes (placeholder).</li>
+                                <li>Realistic car physics and damage modeling.</li>
+                            </ul>
+                        </div>
+
+                        <div id="instructions" class="tab-content">
+                            <h2>How to Play Nitro Burnout X</h2>
+                            <p>Familiarize yourself with the controls to dominate the racetrack:</p>
+                            <ul>
+                                <li><strong>Up Arrow / W:</strong> Accelerate</li>
+                                <li><strong>Down Arrow / S:</strong> Brake / Reverse</li>
+                                <li><strong>Left Arrow / A:</strong> Steer Left</li>
+                                <li><strong>Right Arrow / D:</strong> Steer Right</li>
+                                <li><strong>Spacebar / Left Shift:</strong> Nitro Boost</li>
+                                <li><strong>R:</strong> Reset Car Position</li>
+                                <li><strong>C:</strong> Change Camera View</li>
+                            </ul>
+                            <p><strong>Pro Tip:</strong> Save your Nitro for straightaways or for a crucial overtaking maneuver. Mastering drifting around corners can also give you a significant edge!</p>
+                            <p><em>(Note: Actual controls may vary depending on the game you embed.)</em></p>
+                        </div>
+                        
+                        <div id="comments" class="tab-content">
+                            <h2>User Comments (23)</h2>
+                            <div class="comment-form">
+                                <h4>Leave a Comment</h4>
+                                <textarea placeholder="Write your comment here... (max 300 characters)"></textarea>
+                                <button class="btn btn-primary">Post Comment</button>
+                            </div>
+                            <div class="comment-list">
+                                <div class="comment-item">
+                                    <img src="https://placehold.co/50x50/00A9FF/FFFFFF?text=U1" alt="User Avatar" class="comment-avatar">
+                                    <div class="comment-content">
+                                        <p class="comment-author">GamerPro123 <span class="comment-date">- 2 hours ago</span></p>
+                                        <p>This game is awesome! The graphics are insane.</p>
+                                    </div>
+                                </div>
+                                <div class="comment-item">
+                                    <img src="https://placehold.co/50x50/FF4081/FFFFFF?text=U2" alt="User Avatar" class="comment-avatar">
+                                    <div class="comment-content">
+                                        <p class="comment-author">SpeedDemon <span class="comment-date">- 5 hours ago</span></p>
+                                        <p>Finally, a racing game that feels challenging. Love the nitro boosts!</p>
+                                    </div>
+                                </div>
+                                 <div class="comment-item">
+                                    <img src="https://placehold.co/50x50/39FF14/1A1A2E?text=U3" alt="User Avatar" class="comment-avatar">
+                                    <div class="comment-content">
+                                        <p class="comment-author">CasualPlayer <span class="comment-date">- 1 day ago</span></p>
+                                        <p>A bit hard for me, but looks great. Will keep practicing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary btn-load-more">Load More Comments</button>
+                        </div>
+                    </section>
+                </div> <!-- .game-main-column -->
+                
+                <aside class="game-sidebar">
+                    <section class="related-games-sidebar">
+                        <h3><i class="fas fa-puzzle-piece"></i> Related Games</h3>
+                        <div class="sidebar-game-list">
+                            <a href="game.html" class="sidebar-game-item">
+                                <img src="https://placehold.co/120x80/1F2947/E0E0E0?text=Drift+Legends" alt="Drift Legends">
+                                <div class="sidebar-game-info">
+                                    <h4>Drift Legends</h4>
+                                    <span>Drifting, Car</span>
+                                </div>
+                            </a>
+                            <a href="game.html" class="sidebar-game-item">
+                                <img src="https://placehold.co/120x80/1F2947/E0E0E0?text=Cyber+Striker" alt="Cyber Striker">
+                                <div class="sidebar-game-info">
+                                    <h4>Cyber Striker</h4>
+                                    <span>Action</span>
+                                </div>
+                            </a>
+                            <a href="game.html" class="sidebar-game-item">
+                                <img src="https://placehold.co/120x80/1F2947/E0E0E0?text=Grand+Prix" alt="Grand Prix Hero">
+                                <div class="sidebar-game-info">
+                                    <h4>Grand Prix Hero</h4>
+                                    <span>Racing</span>
+                                </div>
+                            </a>
+                            <a href="game.html" class="sidebar-game-item">
+                                <img src="https://placehold.co/120x80/1F2947/E0E0E0?text=Mind+Benders" alt="Mind Benders">
+                                <div class="sidebar-game-info">
+                                    <h4>Mind Benders</h4>
+                                    <span>Puzzle</span>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                     <section class="sidebar-ad-placeholder">
+                        <h3>Advertisement</h3>
+                        <div class="ad-box">
+                            <img src="https://placehold.co/300x250/16213E/A0AECD?text=Your+Ad+Here" alt="Advertisement Placeholder">
+                        </div>
+                    </section>
+                </aside> <!-- .game-sidebar -->
+
+            </div> <!-- .container closing tag for game page -->
+        </main>
+
+        <footer id="main-footer">
+            <div class="container">
+                 <div class="footer-columns">
+                    <div class="footer-column about-column">
+                        <span class="logo-text-footer"><i class="fas fa-gamepad"></i> GameZone Pro</span>
+                        <p>Your ultimate destination for free online games. We offer a vast collection of fun and engaging games for all ages.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                           <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">© 2024 GameZone Pro. All Rights Reserved. Designed with <i class="fas fa-heart"></i> by Your AI Assistant.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+  </html>
